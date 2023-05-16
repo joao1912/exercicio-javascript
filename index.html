@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de preços</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <section>
+        <h1>Produtos</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Cód
+                    </th>
+                    <th>
+                        Produto
+                    </th>
+                    <th>
+                        Preço
+                    </th>
+                    <th>
+                        Quant
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> 
+                    <td class="cod">100</td>
+                    <td class="produto">Cachorro Quente</td>
+                    <td class="preco">R$1,70</td>
+                    <td class="quantidade"><input type="number" class="quantInput" id="prod1"></td>
+                </tr>
+                <tr>
+                    <td class="cod">101</td>
+                    <td class="produto">Bauru Simples</td>
+                    <td class="preco">R$2,30</td>
+                    <td class="quantidade"><input type="number" class="quantInput" id="prod2"></td>
+                </tr>
+                <tr>
+                    <td class="cod">102</td>
+                    <td class="produto">Bauru Com Ovos</td>
+                    <td class="preco">R$2,60</td>
+                    <td class="quantidade"><input type="number" class="quantInput" id="prod3"></td>
+                </tr>
+                <tr>
+                    <td class="cod">103</td>
+                    <td class="produto">Hamburguer</td>
+                    <td class="preco">R$2,40</td>
+                    <td class="quantidade"><input type="number" class="quantInput" id="prod4"></td>
+                </tr>
+                <tr>
+                    <td class="cod">104</td>
+                    <td class="produto">Cheeseburguer </td>
+                    <td class="preco">R$2,50</td>
+                    <td class="quantidade"><input type="number" class="quantInput" id="prod5"></td>
+                </tr>
+                <tr>
+                    <td class="cod">105</td>
+                    <td class="produto">Refrigerante </td>
+                    <td class="preco">R$1,00</td>
+                    <td class="quantidade"><input type="number" class="quantInput" id="prod6"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+   
+    <button id="btnComprar">Comprar</button>
+
+    <div id="resultado">
+        preço: R$000
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

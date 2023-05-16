@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-color: antiquewhite;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 97vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse; 
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: black;
+    color: white;
+    padding-bottom: 3px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.cod {
+    background-color: azure;
+}
+
+.preco {
+    background-color: black;
+    color: white;
+}
+
+.produto {
+    background-color: white;
+}
+
+.quantidade {
+    background-color: black;
+}
+
+.quantidade input {
+    background-color: white;
+    width: 30px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding-left: 5px;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button:hover  {
+    transform: scale(1.1);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    display: none;
+    text-align: left;
+}
+
+#totalPag {
+    display: block;
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline; 
+}
